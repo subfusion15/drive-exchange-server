@@ -1,3 +1,7 @@
+@app.route('/')
+def home():
+    return '✅ Drive Exchange Flask Server is running successfully!'
+
 # Flask server: exchange serverAuthCode for OAuth tokens and ensure a 'Tax Receipts' folder exists on Drive.
 # Secure: set CLIENT_ID and CLIENT_SECRET in environment (Render environment variables).
 import os
